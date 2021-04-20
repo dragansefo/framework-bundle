@@ -106,6 +106,9 @@
         "symfony/property-info": "For using the property_info service",
         "symfony/web-link": "For using web links, features such as preloading, prefetching or prerendering"
     },
+    "replace": {
+        "symfony/framework-bundle": "^5.2.*"
+    },
     "autoload": {
         "psr-4": { "Symfony\\Bundle\\FrameworkBundle\\": "" },
         "exclude-from-classmap": [
