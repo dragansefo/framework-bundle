@@ -76,7 +76,7 @@ return static function (ContainerConfigurator $container) {
             ->parent('mailer.transport_factory.abstract')
             ->tag('mailer.transport_factory')
 
-        ->set('mailer.transport_factory.sendinblue', SparkpostTransportFactory::class)
+        ->set('mailer.transport_factory.sparkpost', SparkpostTransportFactory::class)
             ->parent('mailer.transport_factory.abstract')
             ->tag('mailer.transport_factory')
 
