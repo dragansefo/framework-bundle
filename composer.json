@@ -107,7 +107,7 @@
         "symfony/web-link": "For using web links, features such as preloading, prefetching or prerendering"
     },
     "replace": {
-        "symfony/framework-bundle": "^5.2.*"
+        "symfony/framework-bundle": "5.2.*"
     },
     "autoload": {
         "psr-4": { "Symfony\\Bundle\\FrameworkBundle\\": "" },
